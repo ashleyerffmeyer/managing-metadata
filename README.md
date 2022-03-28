@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tools & Resources Used
+* [Semantic UI React](https://react.semantic-ui.com/)
+* CSS	
+* HTML	
+* JavaScript	
+* [Axios](https://www.npmjs.com/package/axios)
+* [React with Hooks](https://reactjs.org/docs/hooks-intro.html)
+* [Node.js](https://nodejs.org/)
+* [Node Package Manager (NPM)](https://npmjs.com/)
+* [ReactJS](https://github.com/facebook/react)
+* [Hook Agency Website Color Schemes for 2022](https://hookagency.com/blog/website-color-schemes/)
+
+## Prerequisites & Installations
+First, clone repo. Then, `npm install` the following dependencies: axios, express, mongoose, react, and react-router-dom. Finally, `npm start`. 
+
 ## Available Scripts
 
 In the project directory, you can run:
