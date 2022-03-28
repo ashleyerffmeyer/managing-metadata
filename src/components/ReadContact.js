@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function ReadContact() {
     const [contactAPIData, setContactAPIData] = useState([]);
     useEffect(() => {
-        axios.get(``)
+        axios.get(`https://6241dbbd76c4fb91f67b85a7.mockapi.io/contact`)
             .then((response) => {
                 console.log(response.data)
                 setContactAPIData(response.data);
@@ -23,14 +23,14 @@ export default function ReadContact() {
     }
 
     const getContact = () => {
-        axios.get(``)
+        axios.get(`https://6241dbbd76c4fb91f67b85a7.mockapi.io/contact`)
             .then((getContact) => {
-                contactAPIData(getContact.data);
+                setContactAPIData(getContact.data);
             })
     }
 
     const deleteContact = (id) => {
-        axios.delete(`/${id}`)
+        axios.delete(`https://6241dbbd76c4fb91f67b85a7.mockapi.io/contact/${id}`)
             .then(() => {
                 getContact();
             })

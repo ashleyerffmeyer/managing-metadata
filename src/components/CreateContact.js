@@ -12,7 +12,7 @@ export default function CreateContact() {
     const [zip, setZip] = useState('');
 
     const postContact = () => {
-        axios.post(``, {
+        axios.post(`https://6241dbbd76c4fb91f67b85a7.mockapi.io/contact`, {
             name,
             email,
             birthday,

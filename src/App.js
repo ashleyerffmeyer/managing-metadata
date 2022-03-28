@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <div className="main-page">
-        <h2 class="main-page-title">React Metadata Manager</h2>
+        <h2 className="main-page-title">React Metadata Manager</h2>
         <div>
           <Route exact path='/create' component={CreateContact} />
         </div>

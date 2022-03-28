@@ -21,7 +21,7 @@ export default function UpdateContact() {
     }, []);
 
     const updateContactAPIData = () => {
-        axios.put(`https://60fbca4591156a0017b4c8a7.mockapi.io/fakeData/${id}`, {
+        axios.put(`https://6241dbbd76c4fb91f67b85a7.mockapi.io/contact/${id}`, {
             name,
             email,
             birthday,
