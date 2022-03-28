@@ -6,7 +6,7 @@
   align-items: center;
   height: 100vh;
   background-color: #14365D;
-  color: whitesmoke;
+  color: #E5AA9E;
   flex-direction: column;
 }
 
@@ -15,7 +15,21 @@
 }
 
 .create-contact-form label{
-  color: whitesmoke !important;
+  color:#E5AA9E !important;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px !important;
+  font-size: 20px !important;
+}
+
+.label-div{
+  padding: 6px;
+  font-size: 20px;
+}
+
+.input-div{
+  padding: 6px;
+}
+
+.table-header{
+  font-size: 20px;
+  text-align: left;
 }

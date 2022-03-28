@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Managing Metadata
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- A web application that allows for managing metadata of people records. 
+  - Fields for a person should be:
+    - name
+	- email
+	- birthday
+	- zip code (5-digit)
+
+  - Build a UI that implements the basic CRUD operations: (The operations should be executed via an API call)
+	- Display existing entries in a data table
+	- Functionality to create a new record
+	- Functionality to update an existing record
+	- Functionality to delete an existing record
 
 ## Tools & Resources Used
 * HTML	
@@ -15,8 +26,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [Axios](https://www.npmjs.com/package/axios)
 * [Hook Agency Website Color Schemes for 2022](https://hookagency.com/blog/website-color-schemes/)
 
-## Prerequisites & Installations
-First, clone repo. Then, run `npm install` to install the dependencies. Run `npm start`. Navigate to [http://localhost:3000/create](http://localhost:3000/create) and add your first contact.
+## How To Use This Application
+First, clone [project repo](https://github.com/ashleyerffmeyer/managing-metadata). Then, run `npm install` to install the dependencies. Run with `npm start`. 
+
+Navigate to [http://localhost:3000/create](http://localhost:3000/create) and add your first contact.
+Go to [http://localhost:3000/read](http://localhost:3000/read) to see all of your contacts.
+Finally, navigate to [http://localhost:3000/update](http://localhost:3000/update) to make an update to a specific contact.
+
+## Development Approach & Assumptions
+I sketched out an initial layout of a UI that implemented basic CRUD operations to manage metadata of people's records. Layouts consisted of a Create form, an Update form, and table to Read (display) form input.
+
+Initially I wanted to develop this application using the Django framework. After investigating the documenation for a considerable amount of time, I decided to stick with tech I already knew (Javascript, React) in order to develop this application effectively.
+
+However, I decided to incorporate Semantic UI React to demonstrate implementation of new UI framework I was unfamilar with. Choosing to use Semantic UI React made incorporating Formik and Yup validation not as straight forward in Semantic UI React. In the interest of time, I chose to include this functionality, along with testing, at a later date.
 
 ## Future Functionality
 * [Django](https://www.djangoproject.com/)
@@ -24,6 +46,10 @@ First, clone repo. Then, run `npm install` to install the dependencies. Run `npm
 * [Yup Validation for Formik](https://formik.org/docs/guides/validation)
 * [Jest](https://jestjs.io/)
 * [Cypress](https://www.cypress.io/)
+
+## Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

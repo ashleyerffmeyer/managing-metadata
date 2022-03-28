@@ -34,22 +34,40 @@ export default function UpdateContact() {
         <div>
             <Form className="create-contact-form">
                 <Form.Field>
-                    <label>Name</label>
-                    <input placeholder='Name' onChange={(e) => setName(e.target.value)} />
+                    <div className="label-div">
+                        <label>Name</label>
+                    </div>
+                    <div className="input-div">
+                        <input placeholder='Name' onChange={(e) => setName(e.target.value)} />
+                    </div>
                 </Form.Field>
                 <Form.Field>
-                    <label>Email</label>
-                    <input placeholder='Email' onChange={(e) => setEmail(e.target.value)} />
+                    <div className="label-div">
+                        <label>Email</label>
+                    </div>
+                    <div className="input-div">
+                        <input placeholder='Email' onChange={(e) => setEmail(e.target.value)} />
+                    </div>
                 </Form.Field>
                 <Form.Field>
-                    <label>Birthday</label>
-                    <input placeholder='Birthday' onChange={(e) => setBirthday(e.target.value)} />
+                    <div className="label-div">
+                        <label>Birthday</label>
+                    </div>
+                    <div className="input-div">
+                        <input placeholder='Birthday' onChange={(e) => setBirthday(e.target.value)} />
+                    </div>
                 </Form.Field>
                 <Form.Field>
-                    <label>ZIP Code</label>
-                    <input placeholder='ZIP Code' onChange={(e) => setZip(e.target.value)} />
+                    <div className="label-div">
+                        <label>ZIP Code</label>
+                    </div>
+                    <div className="input-div">
+                        <input placeholder='ZIP Code' onChange={(e) => setZip(e.target.value)} />
+                    </div>
                 </Form.Field>
-                <Button type='submit' onClick={updateContactAPIData}>Update</Button>
+                <div className="label-div">
+                    <Button type='submit' onClick={updateContactAPIData}>Update</Button>
+                </div>
             </Form>
         </div>
     )

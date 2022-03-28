@@ -39,7 +39,7 @@ export default function ReadContact() {
     return (
         <div>
             <Table singleLine>
-                <Table.Header>
+                <Table.Header className="table-header">
                     <Table.Row>
                         <Table.HeaderCell>Name</Table.HeaderCell>
                         <Table.HeaderCell>Email</Table.HeaderCell>
