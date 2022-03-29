@@ -40,7 +40,9 @@ I sketched out an initial layout of a UI that implemented basic CRUD operations 
 
 Initially I wanted to develop this application using the Django framework. After investigating the documenation for a considerable amount of time, I decided to stick with tech I already knew (Javascript, React) in order to develop this application effectively and in a timely manner.
 
-However, I decided to incorporate Semantic UI React to demonstrate I can implement a new UI framework I was unfamilar with. Choosing to use Semantic UI React made incorporating Formik and Yup validation less than straight forward compared to Material UI, my typical go-to UI framework. In the interest of time, I chose to include Formik implementation and validation, along with testing, at a later date.
+However, I decided to incorporate Semantic UI React to demonstrate that I can implement a new, unfamiliar UI framework. Choosing to use Semantic UI React made incorporating Formik and Yup validation less than straight forward compared to Material UI, my typical go-to UI framework. In the interest of time, I chose to include Formik implementation and validation at a later date.
+
+Overall, learned some great lessons while working on this project such as: continuing to learn to estimate how long it takes to learn new tech (something software engineers can always refine!), sometimes the best solution is the simpliest solution, and always sketch out a plan first.
 
 ## Future Functionality
 * [Django](https://www.djangoproject.com/)
